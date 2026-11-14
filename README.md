@@ -72,3 +72,5 @@ Accueil allégé : descriptions répétées supprimées. Le calendrier utilise l
 Le Poulet Comedy Club est co-organisé par Pauk et Madame Hutt ; la photo d’anniversaire avec Jeanne fournie par Pauk remplace le portrait dans cette section. Titre de saison : « Lundi, c’est Poulet ! ».
 
 Mise en scène : référence Bon camarade d’Arthur Fournier ajoutée aux pages Enseignement et Professionnels, avec la billetterie fournie par Pauk. Rythme du mardi à Paris et deux saisons à Avignon confirmés par Pauk.
+
+Presse & bio : parcours de jeu et de mise en scène à Avignon en 2025 et 2026 précisé sur indication de Pauk (scène ouverte d’improvisation chantée en 2025 et Le Prime de la FMR Académie en 2026), avec le lien https://www.ticketac.com/spectacles/fmr-academie.
