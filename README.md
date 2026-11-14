@@ -50,7 +50,7 @@ Deux vidéos locales validées, chargées au clic, figurent sur la page Vidéos.
 
 ## Domaine choisi
 
-Domaine principal : https://pauk.site/ ; contact public : contact@pauk.site. La configuration DNS et l’activation de la boîte mail se font dans OVH. Le dépôt et l’adresse de prévisualisation GitHub Pages restent inchangés.
+Domaine principal : https://pauk.live/ ; contact public : contact@pauk.live. La configuration DNS et l’activation de la boîte mail se font dans OVH. Le dépôt et l’adresse de prévisualisation GitHub Pages restent inchangés.
 
 ## Statistiques sociales
 
