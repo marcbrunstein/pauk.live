@@ -70,3 +70,5 @@ Sources des lieux (vérifiées le 14 novembre 2026) :
 
 Accueil allégé : descriptions répétées supprimées. Le calendrier utilise le même agenda que la page Sur scène ; un clic sur un jour coloré affiche les représentations, les adresses et les réservations disponibles. Navigation bornée de la première à la dernière date future, sélection utilisable au clavier.
 Le Poulet Comedy Club est co-organisé par Pauk et Madame Hutt ; la photo d’anniversaire avec Jeanne fournie par Pauk remplace le portrait dans cette section. Titre de saison : « Lundi, c’est Poulet ! ».
+
+Mise en scène : référence Bon camarade d’Arthur Fournier ajoutée aux pages Enseignement et Professionnels, avec la billetterie fournie par Pauk. Rythme du mardi à Paris et deux saisons à Avignon confirmés par Pauk.
