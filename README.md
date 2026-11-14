@@ -47,3 +47,11 @@ Après validation, enregistrer puis pousser les changements dans la branche conf
 21 dates du Poulet sont renseignées dans `assets/contenu.js`, d’après l’affiche fournie, les lundis à 20 h 15 chez Agnès, 21 rue Delizy à Pantin. L’accueil affiche les quatre prochaines ; la page Sur scène affiche toutes les dates à venir. Les dates passées restent dans les données et sont masquées automatiquement.
 
 Deux vidéos locales validées, chargées au clic, figurent sur la page Vidéos. Les photos sélectionnées conservent leurs proportions et les originaux sont disponibles dans la galerie. La vignette Comédie+ est désormais la photo officielle de l’épisode 6, récupérée sur Canal+, sans génération ni modification des visages. La référence sur le roast pointe vers l’article franceinfo fourni.
+
+## Domaine choisi
+
+Domaine principal : https://pauk.site/ ; contact public : contact@pauk.site. La configuration DNS et l’activation de la boîte mail se font dans OVH. Le dépôt et l’adresse de prévisualisation GitHub Pages restent inchangés.
+
+## Statistiques sociales
+
+`assets/statistiques.js` contient les abonnés par réseau, les vues des vidéos épinglées et la date de relevé. Le total se recalcule à partir des quatre nombres. Les chiffres constituent un relevé daté, pas une synchronisation automatique avec les plateformes. Les vues abrégées sont marquées approximatives ; aucun nombre manquant n’est inventé.

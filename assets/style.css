@@ -433,3 +433,12 @@ a.card:hover .thumb { transform: translateY(-3px); box-shadow: 0 5px 15px #f2efe
 
 .setlist li { border: 0; border-bottom: 1px solid #f2efe844; }
 .setlist li:first-child { border-top: 1px solid #f2efe844; }
+
+.social-count { background: #10171E; }
+.follower-total { font-size: clamp(3.5rem,9vw,7rem); font-weight: 800; line-height: 1.1; letter-spacing: -.06em; margin-block: 12px; font-variant-numeric: tabular-nums; }
+.follower-breakdown { display: grid; grid-template-columns: repeat(2,minmax(100px,1fr)); gap: 20px 40px; list-style: none; }
+.follower-breakdown a { display: flex; flex-direction: column; text-decoration: none; }
+.follower-breakdown strong { font-size: 1.5rem; font-variant-numeric: tabular-nums; }
+.follower-breakdown span { font-size: .85rem; color: var(--ink-soft); }
+.card .video-views { font: 500 .8rem var(--mono); color: var(--pink); }
+@media(max-width:600px) { .follower-breakdown { margin-top: 20px; width: 100%; } }

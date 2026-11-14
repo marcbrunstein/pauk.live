@@ -72,6 +72,41 @@
     button.addEventListener('click', function () { window.print(); });
   });
 
+  // Statistiques datées : chiffres relevés, sans service tiers ni compteur inventé.
+  var stats = window.PAUK_STATS;
+  if (stats) {
+    var number = new Intl.NumberFormat('fr-FR');
+    var networks = stats.followers || [];
+    var complete = networks.length === 4 && networks.every(function (network) {
+      return Number.isInteger(network.count) && network.count >= 0;
+    });
+    var total = document.querySelector('[data-followers-total]');
+    if (total && complete) {
+      total.textContent = number.format(networks.reduce(function (sum, network) { return sum + network.count; }, 0));
+    }
+    var breakdown = document.querySelector('[data-followers-breakdown]');
+    if (breakdown) networks.forEach(function (network) {
+      var item = document.createElement('li');
+      var link = document.createElement('a');
+      link.href = network.url; link.target = '_blank'; link.rel = 'noopener';
+      var count = document.createElement('strong'); count.textContent = number.format(network.count);
+      var label = document.createElement('span'); label.textContent = network.name;
+      link.append(count, label); item.appendChild(link); breakdown.appendChild(item);
+    });
+    var dateLabel = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Europe/Paris' })
+      .format(new Date(stats.updatedAt + 'T12:00:00+01:00'));
+    document.querySelectorAll('[data-stats-date]').forEach(function (label) {
+      label.textContent = 'Abonnements cumulés · relevé du ' + dateLabel + '.';
+    });
+    document.querySelectorAll('[data-instagram-views]').forEach(function (label) {
+      var views = (stats.instagramViews || {})[label.getAttribute('data-instagram-views')];
+      if (!views) return;
+      label.textContent = (views.approximate ? '≈ ' : '') + (views.label || number.format(views.count)) + (views.label && views.label.endsWith('M') ? ' de vues sur Instagram' : ' vues sur Instagram');
+      label.title = 'Chiffre relevé le ' + dateLabel;
+      label.hidden = false;
+    });
+  }
+
   // Boutons « Copier » (bio presse)
   document.querySelectorAll('[data-copy]').forEach(function (btn) {
     btn.addEventListener('click', function () {
