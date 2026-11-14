@@ -377,3 +377,21 @@ a.card:hover .thumb { transform: translateY(-3px); box-shadow: 0 5px 15px #202d3
 .reviews figcaption { display: flex; flex-direction: column; gap: 4px; }
 .reviews figcaption span { font-size: .8rem; color: var(--ink-soft); }
 @media (max-width: 700px) { .reviews { grid-template-columns: 1fr; } }
+
+.nav ul { gap: 18px; font-size: .84rem; }
+.video-player { aspect-ratio: 16/9; background: var(--ink); border-radius: 5px; overflow: hidden; }
+.video-launch { width: 100%; height: 100%; border: 0; cursor: pointer; color: var(--paper); background: transparent; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; font: 600 1.25rem var(--body); padding: 24px; }
+.video-launch .play { font-size: 2rem; }
+.video-launch small { font-size: .8rem; font-weight: 400; }
+.video-launch:hover { background: #ffffff0a; }
+.video-player iframe { width: 100%; height: 100%; display: block; border: 0; }
+@media print {
+ .site-header, .site-footer, .lisere, .btns, .print-sheet, .skip { display: none !important; }
+ body, .band, .page-head { background: white !important; color: black !important; }
+ .inner, .band .inner, .page-head .inner { padding: 16px 0; }
+ .h2, .page-head h1 { font-size: 24pt; }
+ .split, .offers { gap: 20px; }
+ .offer { break-inside: avoid; }
+ .mail-big { font-size: 20pt; }
+ a { color: black !important; }
+}

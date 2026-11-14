@@ -37,3 +37,7 @@ Les liens vidéo et médias ajoutés proviennent du dossier de candidature fourn
 
 L’hébergement existant est GitHub Pages : `https://marcbrunstein.github.io/pauk.paris/`.
 Après validation, enregistrer puis pousser les changements dans la branche configurée pour Pages. Aucun changement d’hébergeur requis.
+
+## Parcours professionnel et vidéo
+
+`professionnels.html` rassemble les informations de programmation, les références, le contact, les ressources presse et une fiche imprimable ou enregistrable en PDF depuis le navigateur. `videos.html#scene` propose un lecteur YouTube activé au clic, sans lecture automatique. Un extrait court de 30 à 60 secondes pourra remplacer ou compléter le passage long lorsqu’il aura été sélectionné et validé par Pauk.

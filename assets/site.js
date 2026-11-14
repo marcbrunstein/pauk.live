@@ -53,6 +53,24 @@
     if (empty) empty.hidden = dates.length > 0;
   });
 
+  // Vidéo à la demande : ni lecture automatique ni requête vidéo avant le clic.
+  document.querySelectorAll('[data-video]').forEach(function (player) {
+    var button = player.querySelector('button');
+    if (!button) return;
+    button.addEventListener('click', function () {
+      var frame = document.createElement('iframe');
+      frame.src = 'https://www.youtube-nocookie.com/embed/' + encodeURIComponent(player.getAttribute('data-video')) + '?rel=0';
+      frame.title = 'Pauk sur scène — extrait du deuxième spectacle';
+      frame.allow = 'encrypted-media; picture-in-picture; fullscreen';
+      frame.setAttribute('allowfullscreen', '');
+      player.replaceChildren(frame);
+      frame.focus();
+    });
+  });
+  document.querySelectorAll('.print-sheet').forEach(function (button) {
+    button.addEventListener('click', function () { window.print(); });
+  });
+
   // Boutons « Copier » (bio presse)
   document.querySelectorAll('[data-copy]').forEach(function (btn) {
     btn.addEventListener('click', function () {
