@@ -44,7 +44,7 @@ Après validation, enregistrer puis pousser les changements dans la branche conf
 
 ## Mise à jour de la saison 2026–2027
 
-16 dates à venir du Poulet et 7 autres rendez-vous sont renseignés dans `assets/contenu.js`, d’après l’affiche fournie, les lundis à 20 h 15 chez Agnès, 21 rue Delizy à Pantin. L’accueil affiche les quatre prochaines ; la page Sur scène affiche toutes les dates à venir. Les cinq dates passées du Poulet ont été retirées le 14 novembre 2026. Les dates qui passent sont ensuite masquées automatiquement. Les adresses des salles sont cliquables vers leur carte.
+16 dates à venir du Poulet et 7 autres rendez-vous sont renseignés dans `assets/contenu.js`, d’après l’affiche fournie, les lundis à 20 h 15 chez Agnès, 21 rue Delizy à Pantin. L’accueil propose un calendrier mensuel cliquable ; la page Sur scène affiche toutes les dates à venir. Les cinq dates passées du Poulet ont été retirées le 14 novembre 2026. Les dates qui passent sont ensuite masquées automatiquement. Les adresses des salles sont cliquables vers leur carte.
 
 Deux vidéos locales validées, chargées au clic, figurent sur la page Vidéos. Les photos sélectionnées conservent leurs proportions et les originaux sont disponibles dans la galerie. La vignette Comédie+ est désormais la photo officielle de l’épisode 6, récupérée sur Canal+, sans génération ni modification des visages. La référence sur le roast pointe vers l’article franceinfo fourni.
 
@@ -66,3 +66,7 @@ Sources des lieux (vérifiées le 14 novembre 2026) :
 - Gavé Style / Drôle de Scène : https://www.gavestyle.fr/pages/contact.html
 
 - Le Méliès : https://www.meliesmontreuil.fr/ — Rire et Lire corrigé au 21 novembre 2026, de 18 h à 20 h 30, sur confirmation de Pauk. Les lieux Boulette / Jeannine et Vierge / Le Mondial sont confirmés par Pauk.
+
+
+Accueil allégé : descriptions répétées supprimées. Le calendrier utilise le même agenda que la page Sur scène ; un clic sur un jour coloré affiche les représentations, les adresses et les réservations disponibles. Navigation bornée de la première à la dernière date future, sélection utilisable au clavier.
+Le Poulet Comedy Club est co-organisé par Pauk et Madame Hutt ; la photo d’anniversaire avec Jeanne fournie par Pauk remplace le portrait dans cette section. Titre de saison : « Lundi, c’est Poulet ! ».
