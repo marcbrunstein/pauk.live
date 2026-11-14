@@ -40,7 +40,7 @@ Après validation, enregistrer puis pousser les changements dans la branche conf
 
 ## Parcours professionnel et vidéo
 
-`professionnels.html` rassemble les informations de programmation, les références, le contact, les ressources presse et une fiche imprimable ou enregistrable en PDF depuis le navigateur. `videos.html#scene` propose un lecteur YouTube activé au clic, sans lecture automatique. Un extrait court de 30 à 60 secondes pourra remplacer ou compléter le passage long lorsqu’il aura été sélectionné et validé par Pauk.
+`professionnels.html` rassemble les informations de programmation, les références, le contact, les ressources presse et une fiche imprimable ou enregistrable en PDF depuis le navigateur. `videos.html#scene` rassemble les passages télé et les chansons improvisées.
 
 ## Mise à jour de la saison 2026–2027
 
@@ -78,3 +78,5 @@ Presse & bio : parcours de jeu et de mise en scène à Avignon en 2025 et 2026 p
 Ton éditorial : Pauk parle à la première personne et tutoie le visiteur. Titres et appels à l’action à l’impératif quand ils s’y prêtent. Les biographies à reprendre par la presse, les noms des œuvres, les témoignages et les mentions légales conservent leur formulation factuelle.
 
 Page Sur scène : agenda placé en premier, dix dates à venir par défaut et bouton pour afficher ou replier toutes les dates, puis Poulet Comedy Club, Merci pour l’attention, affiche de saison et L’Art de Rater.
+
+Le lien des chansons improvisées pointe vers https://youtu.be/r4fRx24oTAk. L’ancien extrait de quinze minutes a été retiré des pages et des ressources professionnelles à la demande de Pauk.
