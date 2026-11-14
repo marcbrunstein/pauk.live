@@ -20,6 +20,14 @@ window.PAUK = {
       "url": "https://www.helloasso.com/associations/look-both-ways/evenements/festival-de-nouvelle-comedie-2026"
     },
     {
+      "date": "2026-11-21",
+      "titre": "Rire et Lire",
+      "heure": "18 h – 20 h 30",
+      "salle": "Cinéma Le Méliès",
+      "adresse": "12 place Jean-Jaurès, 93100 Montreuil",
+      "salleUrl": "https://www.google.com/maps/search/?api=1&query=Cin%C3%A9ma%20Le%20M%C3%A9li%C3%A8s%2012%20place%20Jean-Jaur%C3%A8s%2093100%20Montreuil"
+    },
+    {
       "date": "2026-11-23",
       "titre": "Poulet Comedy Club",
       "role": "Stand-up · MC",
@@ -33,7 +41,7 @@ window.PAUK = {
     {
       "date": "2026-12-01",
       "titre": "Le Beau Comedy Club",
-      "heure": "21 h 30",
+      "heure": "20 h",
       "salle": "Le QG 18",
       "adresse": "43 rue de la Chapelle, 75018 Paris",
       "salleUrl": "https://www.google.com/maps/search/?api=1&query=Le%20QG%2018%2043%20rue%20de%20la%20Chapelle%2C%2075018%20Paris"
@@ -64,12 +72,6 @@ window.PAUK = {
       "salle": "Le Mondial",
       "adresse": "78 rue du Château-d’Eau, 75010 Paris",
       "salleUrl": "https://www.google.com/maps/search/?api=1&query=Le%20Mondial%2078%20rue%20du%20Ch%C3%A2teau-d%E2%80%99Eau%2C%2075010%20Paris"
-    },
-    {
-      "date": "2026-12-12",
-      "titre": "Rire et Lire",
-      "heure": "18 h",
-      "lieu": "Paris · salle à préciser"
     },
     {
       "date": "2026-12-17",

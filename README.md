@@ -44,7 +44,7 @@ Après validation, enregistrer puis pousser les changements dans la branche conf
 
 ## Mise à jour de la saison 2026–2027
 
-16 dates à venir du Poulet et 7 autres rendez-vous sont renseignés dans `assets/contenu.js`, d’après l’affiche fournie, les lundis à 20 h 15 chez Agnès, 21 rue Delizy à Pantin. L’accueil affiche les quatre prochaines ; la page Sur scène affiche toutes les dates à venir. Les cinq dates passées du Poulet ont été retirées le 14 novembre 2026. Les dates qui passent sont ensuite masquées automatiquement. Les adresses des salles sont cliquables vers leur carte ; Rire et Lire reste à préciser.
+16 dates à venir du Poulet et 7 autres rendez-vous sont renseignés dans `assets/contenu.js`, d’après l’affiche fournie, les lundis à 20 h 15 chez Agnès, 21 rue Delizy à Pantin. L’accueil affiche les quatre prochaines ; la page Sur scène affiche toutes les dates à venir. Les cinq dates passées du Poulet ont été retirées le 14 novembre 2026. Les dates qui passent sont ensuite masquées automatiquement. Les adresses des salles sont cliquables vers leur carte.
 
 Deux vidéos locales validées, chargées au clic, figurent sur la page Vidéos. Les photos sélectionnées conservent leurs proportions et les originaux sont disponibles dans la galerie. La vignette Comédie+ est désormais la photo officielle de l’épisode 6, récupérée sur Canal+, sans génération ni modification des visages. La référence sur le roast pointe vers l’article franceinfo fourni.
 
@@ -60,7 +60,9 @@ Domaine principal : https://pauk.site/ ; contact public : contact@pauk.site. La 
 Sources des lieux (vérifiées le 14 novembre 2026) :
 - Le Charleston : https://www.le-charleston.fr/
 - Studio Galande et horaire du 19 novembre : https://www.helloasso.com/associations/look-both-ways/evenements/festival-de-nouvelle-comedie-2026
-- Le QG 18 : https://www.billetreduc.com/spectacle/le-beau-comedy-club-stand-up-a-paris-18e-414854 (horaire de 21 h 30 fourni par Pauk conservé)
+- Le QG 18 : https://www.billetreduc.com/spectacle/le-beau-comedy-club-stand-up-a-paris-18e-414854 (20 h confirmé par Pauk)
 - Boulette chez Jeannine : https://www.privateaser.com/lieu/53005-jeannine
 - Vierge au Mondial : https://shotgun.live/nl/events/vierge-comedy-club
 - Gavé Style / Drôle de Scène : https://www.gavestyle.fr/pages/contact.html
+
+- Le Méliès : https://www.meliesmontreuil.fr/ — Rire et Lire corrigé au 21 novembre 2026, de 18 h à 20 h 30, sur confirmation de Pauk. Les lieux Boulette / Jeannine et Vierge / Le Mondial sont confirmés par Pauk.
