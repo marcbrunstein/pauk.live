@@ -79,4 +79,4 @@ Ton éditorial : Pauk parle à la première personne et tutoie le visiteur. Titr
 
 Page Sur scène : agenda placé en premier, dix dates à venir par défaut et bouton pour afficher ou replier toutes les dates, puis Poulet Comedy Club, Merci pour l’attention, affiche de saison et L’Art de Rater.
 
-Le lien des chansons improvisées pointe vers https://youtu.be/r4fRx24oTAk. L’ancien extrait de quinze minutes a été retiré des pages et des ressources professionnelles à la demande de Pauk.
+La vignette Chansons humoristiques pointe vers https://www.instagram.com/reel/DeR3i85NNVW/ ; une troisième vignette Moi sur scène pointe vers https://youtu.be/r4fRx24oTAk. L’ancien extrait de quinze minutes a été retiré des pages et des ressources professionnelles à la demande de Pauk.
