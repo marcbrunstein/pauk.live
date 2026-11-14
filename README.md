@@ -50,7 +50,7 @@ Deux vidéos locales validées, chargées au clic, figurent sur la page Vidéos.
 
 ## Domaine choisi
 
-Domaine principal : https://pauk.live/ ; contact public : contact@pauk.live. La configuration DNS et l’activation de la boîte mail se font dans OVH. Le dépôt et l’adresse de prévisualisation GitHub Pages restent inchangés.
+Domaine principal : https://pauk.live/ ; contact public : contact@pauk.live. La configuration DNS et l’activation de la boîte mail se font dans OVH. Dépôt : https://github.com/marcbrunstein/pauk.live ; version GitHub Pages : https://marcbrunstein.github.io/pauk.live/.
 
 ## Statistiques sociales
 
@@ -80,3 +80,7 @@ Ton éditorial : Pauk parle à la première personne et tutoie le visiteur. Titr
 Page Sur scène : agenda placé en premier, dix dates à venir par défaut et bouton pour afficher ou replier toutes les dates, puis Poulet Comedy Club, Merci pour l’attention, affiche de saison et L’Art de Rater.
 
 La vignette Chansons humoristiques pointe vers https://www.instagram.com/reel/DeR3i85NNVW/ ; une troisième vignette Moi sur scène pointe vers https://youtu.be/r4fRx24oTAk. L’ancien extrait de quinze minutes a été retiré des pages et des ressources professionnelles à la demande de Pauk.
+
+## Publication OVH
+
+Site publié par SFTP le 14 novembre 2026 sur https://pauk.live/ et https://www.pauk.live/. Les 60 fichiers publics ont été contrôlés en HTTPS et leurs tailles comparées aux fichiers sources. La page d’attente a été conservée séparément avant publication. Aucun mot de passe n’est stocké dans le dépôt. Les prochaines mises à jour doivent être transférées sur OVH après modification du dépôt.
