@@ -53,7 +53,7 @@
       if (item.role) { var tag = document.createElement('span'); tag.className = 'tag'; tag.textContent = item.role; side.appendChild(tag); }
       if (item.url && /^https?:\/\//.test(item.url)) {
         var link = document.createElement('a'); link.className = 'go'; link.href = item.url;
-        link.target = '_blank'; link.rel = 'noopener'; link.textContent = 'Réserver →'; side.appendChild(link);
+        link.target = '_blank'; link.rel = 'noopener'; link.textContent = 'Réserve →'; side.appendChild(link);
       }
       li.append(when, what, side); return li;
   }
@@ -137,7 +137,7 @@
         }
       }
       table.appendChild(tbody); panel.append(head, table);
-      var legend = document.createElement('p'); legend.className = 'calendar-legend'; legend.textContent = 'Jours colorés : Pauk joue. Cliquez pour les détails.'; panel.appendChild(legend);
+      var legend = document.createElement('p'); legend.className = 'calendar-legend'; legend.textContent = 'Clique sur un jour coloré pour venir me voir.'; panel.appendChild(legend);
       var details = document.createElement('div'); details.className = 'calendar-details'; details.setAttribute('aria-live', 'polite'); details.setAttribute('aria-atomic', 'true');
       var title = document.createElement('h3'); title.textContent = selected ? longDate.format(asDate(selected)) : 'Aucune date ce mois-ci';
       var list = document.createElement('ul'); list.className = 'setlist';

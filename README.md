@@ -74,3 +74,5 @@ Le Poulet Comedy Club est co-organisé par Pauk et Madame Hutt ; la photo d’an
 Mise en scène : référence Bon camarade d’Arthur Fournier ajoutée aux pages Enseignement et Professionnels, avec la billetterie fournie par Pauk. Rythme du mardi à Paris et deux saisons à Avignon confirmés par Pauk.
 
 Presse & bio : parcours de jeu et de mise en scène à Avignon en 2025 et 2026 précisé sur indication de Pauk (scène ouverte d’improvisation chantée en 2025 et Le Prime de la FMR Académie en 2026), avec le lien https://www.ticketac.com/spectacles/fmr-academie.
+
+Ton éditorial : Pauk parle à la première personne et tutoie le visiteur. Titres et appels à l’action à l’impératif quand ils s’y prêtent. Les biographies à reprendre par la presse, les noms des œuvres, les témoignages et les mentions légales conservent leur formulation factuelle.
