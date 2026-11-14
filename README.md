@@ -41,3 +41,9 @@ Après validation, enregistrer puis pousser les changements dans la branche conf
 ## Parcours professionnel et vidéo
 
 `professionnels.html` rassemble les informations de programmation, les références, le contact, les ressources presse et une fiche imprimable ou enregistrable en PDF depuis le navigateur. `videos.html#scene` propose un lecteur YouTube activé au clic, sans lecture automatique. Un extrait court de 30 à 60 secondes pourra remplacer ou compléter le passage long lorsqu’il aura été sélectionné et validé par Pauk.
+
+## Mise à jour de la saison 2026–2027
+
+21 dates du Poulet sont renseignées dans `assets/contenu.js`, d’après l’affiche fournie, les lundis à 20 h 15 chez Agnès, 21 rue Delizy à Pantin. L’accueil affiche les quatre prochaines ; la page Sur scène affiche toutes les dates à venir. Les dates passées restent dans les données et sont masquées automatiquement.
+
+Deux vidéos locales validées, chargées au clic, figurent sur la page Vidéos. Les photos sélectionnées conservent leurs proportions et les originaux sont disponibles dans la galerie. La vignette Comédie+ est désormais la photo officielle de l’épisode 6, récupérée sur Canal+, sans génération ni modification des visages. La référence sur le roast pointe vers l’article franceinfo fourni.

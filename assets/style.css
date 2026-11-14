@@ -413,3 +413,23 @@ a.card:hover .thumb { transform: translateY(-3px); box-shadow: 0 5px 15px #f2efe
 
 .card .thumb.instagram { aspect-ratio: 3/4; background: #0B1016; }
 .card .thumb.instagram img { object-fit: contain; object-position: center; }
+
+/* Photos intégrales : aucun visage ni instrument rogné par une boîte fixe. */
+.editorial-photo, .season-poster { margin: 0; }
+.editorial-photo img { width: 100%; height: auto; border-radius: 5px; }
+.editorial-photo figcaption { margin-top: 10px; font-size: .8rem; color: var(--ink-soft); }
+.season-poster { max-width: 420px; justify-self: center; }
+.season-poster img { width: 100%; height: auto; border-radius: 5px; }
+.photos.curated .frame { aspect-ratio: auto; background: transparent; }
+.photos.curated .frame img { width: 100%; height: auto; object-fit: contain; }
+.wide-photo img[src*="pauk-poulet-guitare"] { aspect-ratio: auto; max-height: 650px; object-fit: contain; }
+.card .thumb img { object-fit: contain; }
+.local-clips { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 32px; }
+.local-clips figure { margin: 0; min-width: 0; }
+.local-clips video { display: block; width: 100%; max-height: 600px; aspect-ratio: 9/16; background: #090D12; object-fit: contain; border-radius: 5px; }
+.local-clips figcaption { display: flex; flex-direction: column; gap: 5px; margin-top: 14px; }
+.local-clips figcaption span { font-size: .8rem; color: var(--ink-soft); }
+@media (max-width: 600px) { .local-clips { grid-template-columns: 1fr; } }
+
+.setlist li { border: 0; border-bottom: 1px solid #f2efe844; }
+.setlist li:first-child { border-top: 1px solid #f2efe844; }

@@ -33,7 +33,8 @@
     return /^\d{4}-\d{2}-\d{2}$/.test(item.date) && (item.fin || item.date) >= today;
   }).sort(function (a, b) { return a.date.localeCompare(b.date); });
   document.querySelectorAll('[data-dates]').forEach(function (list) {
-    dates.forEach(function (item) {
+    var limit = Number(list.getAttribute('data-limit')) || dates.length;
+    dates.slice(0, limit).forEach(function (item) {
       var li = document.createElement('li');
       var when = document.createElement('span'); when.className = 'when';
       when.textContent = item.libelle || new Intl.DateTimeFormat('fr-FR', {
