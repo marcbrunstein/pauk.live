@@ -41,7 +41,16 @@
         timeZone: 'Europe/Paris', day: 'numeric', month: 'long', year: 'numeric'
       }).format(new Date(item.date + 'T12:00:00+01:00'));
       var what = document.createElement('span'); what.className = 'what'; what.textContent = item.titre;
-      var place = document.createElement('small'); place.textContent = item.lieu; what.appendChild(place);
+      var place = document.createElement('small');
+      if (item.heure) place.appendChild(document.createTextNode(item.heure + ' · '));
+      if (item.salle && item.adresse && /^https?:\/\//.test(item.salleUrl || '')) {
+        var venue = document.createElement('a');
+        venue.href = item.salleUrl; venue.target = '_blank'; venue.rel = 'noopener';
+        venue.textContent = item.salle + ' — ' + item.adresse;
+        place.appendChild(venue);
+      } else { place.appendChild(document.createTextNode(item.lieu || item.salle || '')); }
+      what.appendChild(place);
+      if (item.infos) { var info = document.createElement('small'); info.textContent = item.infos; what.appendChild(info); }
       var side = document.createElement('span'); side.className = 'side';
       if (item.role) { var tag = document.createElement('span'); tag.className = 'tag'; tag.textContent = item.role; side.appendChild(tag); }
       if (item.url && /^https?:\/\//.test(item.url)) {

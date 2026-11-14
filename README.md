@@ -44,7 +44,7 @@ Après validation, enregistrer puis pousser les changements dans la branche conf
 
 ## Mise à jour de la saison 2026–2027
 
-21 dates du Poulet sont renseignées dans `assets/contenu.js`, d’après l’affiche fournie, les lundis à 20 h 15 chez Agnès, 21 rue Delizy à Pantin. L’accueil affiche les quatre prochaines ; la page Sur scène affiche toutes les dates à venir. Les dates passées restent dans les données et sont masquées automatiquement.
+16 dates à venir du Poulet et 7 autres rendez-vous sont renseignés dans `assets/contenu.js`, d’après l’affiche fournie, les lundis à 20 h 15 chez Agnès, 21 rue Delizy à Pantin. L’accueil affiche les quatre prochaines ; la page Sur scène affiche toutes les dates à venir. Les cinq dates passées du Poulet ont été retirées le 14 novembre 2026. Les dates qui passent sont ensuite masquées automatiquement. Les adresses des salles sont cliquables vers leur carte ; Rire et Lire reste à préciser.
 
 Deux vidéos locales validées, chargées au clic, figurent sur la page Vidéos. Les photos sélectionnées conservent leurs proportions et les originaux sont disponibles dans la galerie. La vignette Comédie+ est désormais la photo officielle de l’épisode 6, récupérée sur Canal+, sans génération ni modification des visages. La référence sur le roast pointe vers l’article franceinfo fourni.
 
@@ -55,3 +55,12 @@ Domaine principal : https://pauk.site/ ; contact public : contact@pauk.site. La 
 ## Statistiques sociales
 
 `assets/statistiques.js` contient les abonnés par réseau, les vues des vidéos épinglées et la date de relevé. Le total se recalcule à partir des quatre nombres. Les chiffres constituent un relevé daté, pas une synchronisation automatique avec les plateformes. Les vues abrégées sont marquées approximatives ; aucun nombre manquant n’est inventé.
+
+
+Sources des lieux (vérifiées le 14 novembre 2026) :
+- Le Charleston : https://www.le-charleston.fr/
+- Studio Galande et horaire du 19 novembre : https://www.helloasso.com/associations/look-both-ways/evenements/festival-de-nouvelle-comedie-2026
+- Le QG 18 : https://www.billetreduc.com/spectacle/le-beau-comedy-club-stand-up-a-paris-18e-414854 (horaire de 21 h 30 fourni par Pauk conservé)
+- Boulette chez Jeannine : https://www.privateaser.com/lieu/53005-jeannine
+- Vierge au Mondial : https://shotgun.live/nl/events/vierge-comedy-club
+- Gavé Style / Drôle de Scène : https://www.gavestyle.fr/pages/contact.html
