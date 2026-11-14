@@ -44,7 +44,7 @@ Après validation, enregistrer puis pousser les changements dans la branche conf
 
 ## Mise à jour de la saison 2026–2027
 
-16 dates à venir du Poulet et 7 autres rendez-vous sont renseignés dans `assets/contenu.js`, d’après l’affiche fournie, les lundis à 20 h 15 chez Agnès, 21 rue Delizy à Pantin. L’accueil propose un calendrier mensuel cliquable ; la page Sur scène affiche toutes les dates à venir. Les cinq dates passées du Poulet ont été retirées le 14 novembre 2026. Les dates qui passent sont ensuite masquées automatiquement. Les adresses des salles sont cliquables vers leur carte.
+16 dates à venir du Poulet et 7 autres rendez-vous sont renseignés dans `assets/contenu.js`, d’après l’affiche fournie, les lundis à 20 h 15 chez Agnès, 21 rue Delizy à Pantin. L’accueil propose un calendrier mensuel cliquable ; la page Sur scène affiche dix dates à venir et permet de déplier la suite. Les cinq dates passées du Poulet ont été retirées le 14 novembre 2026. Les dates qui passent sont ensuite masquées automatiquement. Les adresses des salles sont cliquables vers leur carte.
 
 Deux vidéos locales validées, chargées au clic, figurent sur la page Vidéos. Les photos sélectionnées conservent leurs proportions et les originaux sont disponibles dans la galerie. La vignette Comédie+ est désormais la photo officielle de l’épisode 6, récupérée sur Canal+, sans génération ni modification des visages. La référence sur le roast pointe vers l’article franceinfo fourni.
 
@@ -76,3 +76,5 @@ Mise en scène : référence Bon camarade d’Arthur Fournier ajoutée aux pages
 Presse & bio : parcours de jeu et de mise en scène à Avignon en 2025 et 2026 précisé sur indication de Pauk (scène ouverte d’improvisation chantée en 2025 et Le Prime de la FMR Académie en 2026), avec le lien https://www.ticketac.com/spectacles/fmr-academie.
 
 Ton éditorial : Pauk parle à la première personne et tutoie le visiteur. Titres et appels à l’action à l’impératif quand ils s’y prêtent. Les biographies à reprendre par la presse, les noms des œuvres, les témoignages et les mentions légales conservent leur formulation factuelle.
+
+Page Sur scène : agenda placé en premier, dix dates à venir par défaut et bouton pour afficher ou replier toutes les dates, puis Poulet Comedy Club, Merci pour l’attention, affiche de saison et L’Art de Rater.

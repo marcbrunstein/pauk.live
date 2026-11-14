@@ -466,3 +466,5 @@ a.card:hover .thumb { transform: translateY(-3px); box-shadow: 0 5px 15px #f2efe
 .calendar-details .setlist .when { display:none; }
 .calendar-details .setlist .side { justify-content:flex-start; }
 @media(max-width:760px) { .show-calendar { grid-template-columns:1fr; gap:24px; } .calendar-panel { max-width:440px; width:100%; } }
+
+[data-expand-dates] { margin-top:24px; cursor:pointer; font-family:inherit; }

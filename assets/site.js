@@ -59,9 +59,24 @@
   }
   document.querySelectorAll('[data-dates]').forEach(function (list) {
     var limit = Number(list.getAttribute('data-limit')) || dates.length;
-    dates.slice(0, limit).forEach(function (item) {
-      list.appendChild(dateRow(item));
-    });
+    var expanded = false;
+    function renderDates() {
+      list.replaceChildren();
+      dates.slice(0, expanded ? dates.length : limit).forEach(function (item) {
+        list.appendChild(dateRow(item));
+      });
+    }
+    renderDates();
+    var expand = list.parentElement.querySelector('[data-expand-dates]');
+    if (expand && dates.length > limit) {
+      expand.hidden = false;
+      expand.addEventListener('click', function () {
+        expanded = !expanded;
+        renderDates();
+        expand.setAttribute('aria-expanded', String(expanded));
+        expand.textContent = expanded ? 'Voir moins de dates' : 'Voir toutes les dates';
+      });
+    }
     var empty = list.parentElement.querySelector('.setlist-empty');
     if (empty) empty.hidden = dates.length > 0;
   });
