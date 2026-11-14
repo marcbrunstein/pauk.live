@@ -303,7 +303,7 @@ section[id], li[id] { scroll-margin-top: 100px; }
 .hero-photo { margin: 0; position: relative; }
 .hero-photo figcaption { font: .7rem var(--mono); margin-top: 12px; text-align: right; }
 .portrait { border: 0; border-radius: 5px; aspect-ratio: 4/4.5; }
-.portrait img { object-position: 50% 29%; }
+.portrait img { object-position: 50% 0%; }
 .hero-note { font-size: .8rem; color: var(--ink-soft); margin-top: 24px; }
 .btn { border-width: 1.5px; padding: 12px 22px; font-weight: 600; }
 .btn:hover { transform: translateY(-2px); box-shadow: 0 4px 0 #c67c6140; }
