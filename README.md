@@ -29,9 +29,9 @@ La récurrence « un lundi sur deux » n’est pas transformée en dates sans ca
 
 ## Compléments attendus
 
-Dates confirmées ; profil Superprof et avis sélectionnés avec attribution ; rôle exact auprès de la Fémis ; nouvelles photos et crédits ; confirmation du rôle actuel au Cours Florent (les sources divergent) ; validation de l’adresse de contact et du domaine. Le lieu du premier spectacle n’est pas précisé dans la nouvelle présentation, les sources mentionnant Le Lieu et Le Bout.
+Dates confirmées ; rôle exact auprès de la Fémis ; nouvelles photos et crédits ; validation de l’adresse de contact et du domaine. Le lieu du premier spectacle n’est pas précisé dans la nouvelle présentation, les sources mentionnant Le Lieu et Le Bout.
 
-Les liens vidéo et médias ajoutés proviennent du dossier de candidature fourni. La publication France Info sur la Fête de la musique reste à confirmer par Pauk. Les notes de travail et coordonnées de prospection ne sont pas publiées.
+Les liens vidéo et médias ajoutés proviennent du dossier de candidature fourni. Le lien France Info et le profil Superprof ont été confirmés par Pauk. Les avis de Camille et Baptiste ont été retranscrits depuis ses captures, avec attribution et dates. Les nouvelles photos ont été fournies dans la seconde archive ; les crédits photographiques restent à préciser. Les notes de travail et coordonnées de prospection ne sont pas publiées.
 
 ## Publication
 
