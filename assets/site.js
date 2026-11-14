@@ -25,17 +25,32 @@
     onScroll();
   }
 
-  // Les dates dont data-end est passé disparaissent toutes seules de la setlist
-  var today = new Date();
-  today.setHours(0, 0, 0, 0);
-  document.querySelectorAll('.setlist li[data-end]').forEach(function (li) {
-    var end = new Date(li.getAttribute('data-end') + 'T23:59:59');
-    if (!isNaN(end) && end < today) li.hidden = true;
-  });
-  document.querySelectorAll('.setlist').forEach(function (list) {
-    var visible = list.querySelectorAll('li:not([hidden])').length;
+  // Un seul agenda pour toutes les pages, selon la date à Paris.
+  var today = new Intl.DateTimeFormat('sv-SE', {
+    timeZone: 'Europe/Paris', year: 'numeric', month: '2-digit', day: '2-digit'
+  }).format(new Date());
+  var dates = ((window.PAUK && window.PAUK.dates) || []).filter(function (item) {
+    return /^\d{4}-\d{2}-\d{2}$/.test(item.date) && (item.fin || item.date) >= today;
+  }).sort(function (a, b) { return a.date.localeCompare(b.date); });
+  document.querySelectorAll('[data-dates]').forEach(function (list) {
+    dates.forEach(function (item) {
+      var li = document.createElement('li');
+      var when = document.createElement('span'); when.className = 'when';
+      when.textContent = item.libelle || new Intl.DateTimeFormat('fr-FR', {
+        timeZone: 'Europe/Paris', day: 'numeric', month: 'long', year: 'numeric'
+      }).format(new Date(item.date + 'T12:00:00+01:00'));
+      var what = document.createElement('span'); what.className = 'what'; what.textContent = item.titre;
+      var place = document.createElement('small'); place.textContent = item.lieu; what.appendChild(place);
+      var side = document.createElement('span'); side.className = 'side';
+      if (item.role) { var tag = document.createElement('span'); tag.className = 'tag'; tag.textContent = item.role; side.appendChild(tag); }
+      if (item.url && /^https?:\/\//.test(item.url)) {
+        var link = document.createElement('a'); link.className = 'go'; link.href = item.url;
+        link.target = '_blank'; link.rel = 'noopener'; link.textContent = 'Réserver →'; side.appendChild(link);
+      }
+      li.append(when, what, side); list.appendChild(li);
+    });
     var empty = list.parentElement.querySelector('.setlist-empty');
-    if (empty) empty.hidden = visible > 0;
+    if (empty) empty.hidden = dates.length > 0;
   });
 
   // Boutons « Copier » (bio presse)
